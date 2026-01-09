@@ -8,6 +8,8 @@ using namespace std;
 class Transaction {
     public:
      Transaction();
+
+     Transaction(int in_id, double in_amount, string in_description, time_t in_date, string in_category);
     
      //getters and setters for each variable
      double get_amount();
